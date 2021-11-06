@@ -1,0 +1,26 @@
+@import url(./type.css);
+@import url(./scale.css);
+@import url(./color.css);
+@import url(./layout.css);
+
+
+html{
+    font-size: 62.5%;
+}
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.8rem;
+}
+
+.palette div{
+    width: 20%;
+    padding: var(--scale-2);
+    outline: solid var(--color-secondary) var(--scale-1);
+
+}

@@ -1,0 +1,54 @@
+:root{
+
+    --scale-0: 0px;
+    --scale-1: 0.7rem;
+    --scale-2: 1.4rem;
+    --scale-3: 2.8rem;
+    --scale-4: 4.2rem;
+    --scale-5: 5.6rem;
+    --scale-6: 7.0rem;
+    --scale-7: 8.4rem;
+    --scale-8: 9.8rem;
+}
+
+h1{
+    margin-bottom: var(--scale-8);
+}
+
+
+h2{
+    margin-bottom: var(--scale-5);
+}
+
+h3{
+    margin-bottom: var(--scale-4);
+}
+
+h4{
+    margin-bottom: var(--scale-2);
+}
+
+h5, h6{
+    margin-bottom: var(--scale-1);
+}
+
+p{
+    margin-bottom: var(--scale-3);
+}
+
+.text-p-2{
+    margin-bottom: var(--scale-4);
+}
+
+a{
+    display: inline-block;
+}
+
+.special-link{
+    display: block;
+    margin: var(--scale-3) var(--scale-0);
+}
+
+.micro-text{
+    display: block;
+}
